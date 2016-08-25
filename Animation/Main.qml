@@ -34,4 +34,33 @@ Image {
         }
     }
 
+    Image {
+        x: 400; y: 200
+        source: "img/rocket.png"
+        scale: 0.1
+        opacity: 0
+        NumberAnimation on x {
+            to: 80
+            duration: 4500
+            loops: Animation.Infinite
+        }
+        RotationAnimation on rotation {
+            to: 1080
+            duration: 4500
+            loops: Animation.Infinite
+        }
+
+        RotationAnimation on scale {
+            to: 1
+            duration: 4500
+            loops: Animation.Infinite
+
+        }
+        RotationAnimation on opacity {
+            to: 1
+            duration: 4500
+            loops: Animation.Infinite
+        }
+    }
+
 }
