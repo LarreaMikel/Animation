@@ -16,13 +16,13 @@ Image {
             loops: Animation.Infinite
         }
         RotationAnimation on rotation {
-            to: 360
+            to: 720
             duration: 4500
             loops: Animation.Infinite
         }
 
         RotationAnimation on scale {
-            to: 0.3
+            to: 0.1
             duration: 4500
             loops: Animation.Infinite
 
