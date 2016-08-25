@@ -1,0 +1,17 @@
+{
+    "name": "animation.larreamikel",
+    "description": "description of Animation",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Animation",
+    "hooks": {
+        "Animation": {
+            "apparmor": "Animation/Animation.apparmor",
+            "desktop":  "Animation/Animation.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "Mikel Larrea <developer@larreamikel.com>",
+    "framework" : "ubuntu-sdk-15.04.6"
+}
+
+

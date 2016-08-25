@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Animation
+Exec=qmlscene %U Animation/Main.qml
+Icon=Animation/Animation.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
